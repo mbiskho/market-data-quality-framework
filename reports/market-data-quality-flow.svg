@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="760" rx="0" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="10" rx="0" fill="#3979d6"/>
+<text x="64" y="77" fill="#14243a" font-family="Arial, sans-serif" font-size="34" font-weight="700">VALIDATION FLOW</text>
+<text x="66" y="112" fill="#68798d" font-family="Arial, sans-serif" font-size="14" font-weight="400">ONE INPUT FILE, EXPLICIT CHECKS, INSPECTABLE OUTPUT  |  COUNTS BELOW COME FROM THIS RUN</text>
+<text x="66" y="145" fill="#3979d6" font-family="Arial, sans-serif" font-size="11" font-weight="700">SYNTHETIC SAMPLE  /  13 SOURCE ROWS  /  1 MIN INTERVAL</text>
+<rect x="64" y="190" width="230" height="140" rx="10" fill="#f4f7fb"/>
+<rect x="64" y="190" width="230" height="7" rx="4" fill="#3979d6"/>
+<text x="84" y="229" fill="#68798d" font-family="Arial, sans-serif" font-size="13" font-weight="700">01  INGEST</text>
+<text x="84" y="278" fill="#14243a" font-family="Arial, sans-serif" font-size="27" font-weight="700">13</text>
+<text x="84" y="307" fill="#3979d6" font-family="Arial, sans-serif" font-size="11" font-weight="700">CSV ROWS</text>
+<line x1="302" y1="260" x2="341" y2="260" stroke="#68798d" stroke-width="2"/>
+<polyline points="332,253 341,260 332,267" fill="none" stroke="#68798d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="354" y="190" width="230" height="140" rx="10" fill="#f4f7fb"/>
+<rect x="354" y="190" width="230" height="7" rx="4" fill="#1b9a8a"/>
+<text x="374" y="229" fill="#68798d" font-family="Arial, sans-serif" font-size="13" font-weight="700">02  PARSE</text>
+<text x="374" y="278" fill="#14243a" font-family="Arial, sans-serif" font-size="27" font-weight="700">12</text>
+<text x="374" y="307" fill="#1b9a8a" font-family="Arial, sans-serif" font-size="11" font-weight="700">FULL OHLCV</text>
+<line x1="592" y1="260" x2="631" y2="260" stroke="#68798d" stroke-width="2"/>
+<polyline points="622,253 631,260 622,267" fill="none" stroke="#68798d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="644" y="190" width="230" height="140" rx="10" fill="#f4f7fb"/>
+<rect x="644" y="190" width="230" height="7" rx="4" fill="#e2a338"/>
+<text x="664" y="229" fill="#68798d" font-family="Arial, sans-serif" font-size="13" font-weight="700">03  CHECK</text>
+<text x="664" y="278" fill="#14243a" font-family="Arial, sans-serif" font-size="27" font-weight="700">10</text>
+<text x="664" y="307" fill="#e2a338" font-family="Arial, sans-serif" font-size="11" font-weight="700">VALID ROWS</text>
+<line x1="882" y1="260" x2="921" y2="260" stroke="#68798d" stroke-width="2"/>
+<polyline points="912,253 921,260 912,267" fill="none" stroke="#68798d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="934" y="190" width="230" height="140" rx="10" fill="#f4f7fb"/>
+<rect x="934" y="190" width="230" height="7" rx="4" fill="#d65b58"/>
+<text x="954" y="229" fill="#68798d" font-family="Arial, sans-serif" font-size="13" font-weight="700">04  REPORT</text>
+<text x="954" y="278" fill="#14243a" font-family="Arial, sans-serif" font-size="27" font-weight="700">4</text>
+<text x="954" y="307" fill="#d65b58" font-family="Arial, sans-serif" font-size="11" font-weight="700">FINDINGS</text>
+<text x="66" y="395" fill="#14243a" font-family="Arial, sans-serif" font-size="16" font-weight="700">ROW FUNNEL</text>
+<text x="66" y="419" fill="#68798d" font-family="Arial, sans-serif" font-size="12" font-weight="400">EVERY BAR IS CALCULATED FROM THE SAME SOURCE FILE</text>
+<text x="68" y="481" fill="#26364a" font-family="Arial, sans-serif" font-size="13" font-weight="700">ROWS READ</text>
+<rect x="270" y="464" width="730" height="26" rx="5" fill="#e7edf3"/>
+<rect x="270" y="464" width="730" height="26" rx="5" fill="#3979d6"/>
+<text x="1020" y="483" fill="#14243a" font-family="Arial, sans-serif" font-size="13" font-weight="700">13</text>
+<text x="68" y="535" fill="#26364a" font-family="Arial, sans-serif" font-size="13" font-weight="700">COMPLETE ROWS</text>
+<rect x="270" y="518" width="730" height="26" rx="5" fill="#e7edf3"/>
+<rect x="270" y="518" width="674" height="26" rx="5" fill="#1b9a8a"/>
+<text x="1020" y="537" fill="#14243a" font-family="Arial, sans-serif" font-size="13" font-weight="700">12</text>
+<text x="68" y="589" fill="#26364a" font-family="Arial, sans-serif" font-size="13" font-weight="700">FULLY PARSED</text>
+<rect x="270" y="572" width="730" height="26" rx="5" fill="#e7edf3"/>
+<rect x="270" y="572" width="674" height="26" rx="5" fill="#e2a338"/>
+<text x="1020" y="591" fill="#14243a" font-family="Arial, sans-serif" font-size="13" font-weight="700">12</text>
+<text x="68" y="643" fill="#26364a" font-family="Arial, sans-serif" font-size="13" font-weight="700">VALID ROWS</text>
+<rect x="270" y="626" width="730" height="26" rx="5" fill="#e7edf3"/>
+<rect x="270" y="626" width="562" height="26" rx="5" fill="#d65b58"/>
+<text x="1020" y="645" fill="#14243a" font-family="Arial, sans-serif" font-size="13" font-weight="700">10</text>
+<rect x="64" y="696" width="1066" height="38" rx="6" fill="#f4f7fb"/>
+<text x="82" y="721" fill="#3979d6" font-family="Arial, sans-serif" font-size="11" font-weight="700">CONTRACT</text>
+<text x="198" y="721" fill="#26364a" font-family="Arial, sans-serif" font-size="10" font-weight="400">ISO-8601 UTC  |  FINITE NUMBERS  |  POSITIVE OHLC  |  NON-NEGATIVE VOLUME  |  EXPECTED BAR SPACING</text>
+</svg>
