@@ -1,0 +1,42 @@
+{
+  "source": "data/sample_ohlcv.csv",
+  "expected_interval_minutes": 1,
+  "metrics": {
+    "record_count": 13,
+    "parsed_count": 12,
+    "valid_row_count": 10,
+    "complete_row_count": 12,
+    "completeness_pct": 98.72,
+    "validity_pct": 76.92,
+    "uniqueness_pct": 92.31,
+    "quality_score": 88.72,
+    "error_count": 3,
+    "warning_count": 1
+  },
+  "issues": [
+    {
+      "code": "timestamp_gap",
+      "severity": "warning",
+      "message": "Gap implies 1 missing interval(s) before this row.",
+      "row": 11
+    },
+    {
+      "code": "missing_value",
+      "severity": "error",
+      "message": "Required value 'volume' is blank.",
+      "row": 12
+    },
+    {
+      "code": "duplicate_timestamp",
+      "severity": "error",
+      "message": "Timestamp 2026-09-01T09:41:00+00:00 appears more than once.",
+      "row": 13
+    },
+    {
+      "code": "ohlc_inconsistent",
+      "severity": "error",
+      "message": "'high' must be at least open, close, and low.",
+      "row": 14
+    }
+  ]
+}
